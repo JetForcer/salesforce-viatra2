@@ -1,0 +1,15 @@
+<apex:page standardController="Contact">
+
+    <apex:pageBlock title="My Content" mode="edit">
+        <apex:pageBlockButtons location="top">
+            <apex:form >
+                <apex:commandButton action="{!save}" value="Save">
+                    <apex:param name="q" value="{!contact.name}"/> <!-- apex:param should be allowed here -->
+<!--                    some comment-->
+<!--                    some comment-->
+<!--                    some comment-->
+                </apex:commandButton>
+            </apex:form>
+        </apex:pageBlockButtons>
+    </apex:pageBlock>
+</apex:page>

@@ -1,0 +1,11 @@
+<aura:interface description="Interface template">
+    <aura:attribute name="example" type="String" default="" description="An example attribute."/>
+
+    <!-- change 1  -->
+
+    <aura:method name="defaultParamers" action="{!c.loadDefaultParams}">
+        <aura:attribute type="String" name="header" default="Salesforce Header" />
+        <aura:attribute type="String" name="footer" default="Salesforce Footer" />
+        <aura:attribute type="String" name="title" default="Salesforce" />
+    </aura:method>
+</aura:interface>

@@ -1,0 +1,5 @@
+<aura:component controller="RenameInApex">
+
+    <aura:attribute name="attr" type="String"/>
+    {!v.attr}
+</aura:component>

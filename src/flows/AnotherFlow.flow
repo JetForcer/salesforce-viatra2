@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <interviewLabel>AnotherFlow {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>AnotherFlow</label>
+    <processType>Flow</processType>
+    <screens>
+        <name>MyScreen</name>
+        <label>MyScreen</label>
+        <locationX>264</locationX>
+        <locationY>165</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <startElementReference>MyScreen</startElementReference>
+    <status>Draft</status>
+</Flow>

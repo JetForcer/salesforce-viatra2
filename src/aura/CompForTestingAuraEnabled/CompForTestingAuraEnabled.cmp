@@ -1,0 +1,5 @@
+<aura:component controller="ControllerForTestingAuraEnabled">
+    <aura:attribute name="NewAccountId" type="String" default="The id goes here."/>
+    <ui:button label="Push me" press="c.handlePress" />
+    <ui:outputText value="{!v.NewAccountId}" />
+</aura:component>

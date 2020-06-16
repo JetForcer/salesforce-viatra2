@@ -1,0 +1,5 @@
+<aura:component >
+    <!-- Line below contains unicode zero width space "\u200b" -->
+    <!-- see https://youtrack.jedide.com/issue/JedIDE-335 -->
+    <h3>{​!v.expense.Name}</h3>
+</aura:component>

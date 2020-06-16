@@ -1,0 +1,9 @@
+<!--
+ - Created by dmitr_000 on 10.12.2016.
+ -->
+
+<aura:component description="NewComponent" isTemplate="true" extends="aura:template">
+    <c:NewComponent />
+    <c:NewComponent />
+    <c:NewComponent />
+</aura:component>

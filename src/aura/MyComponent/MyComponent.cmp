@@ -1,0 +1,5 @@
+<aura:component extensible="true" abstract="true" isTemplate="true" >
+
+    {!$Label.c.Relationship_Split}
+
+</aura:component>

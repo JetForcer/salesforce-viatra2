@@ -1,0 +1,5 @@
+<apex:page >
+    <apex:pageBlock title="Hello World changed in IDEA">
+    
+    </apex:pageBlock>
+</apex:page>
